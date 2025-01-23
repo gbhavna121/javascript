@@ -1,0 +1,487 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+
+
+
+.contener{
+    height:100vh;
+    width:100%;
+    background-image: url("./images/Banner.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.contener>nav{
+    height: 90px;
+    width: 100%;
+    background-color: black;
+    background-color: inherit;
+    /* opacity: 0.3; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* position :static; */
+    position: fixed;
+    box-shadow: 1px;
+    
+}
+.contener>nav>div{
+    height: 100%;
+    width: 80%;
+    /* background-color: aqua; */
+}
+ .contener>nav>div>ol{
+    margin-top: 30px;
+    list-style-type: none;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+   
+
+}
+
+.contener>nav>div>ol>li>a{
+    color: white;
+    font-weight: bold;
+    text-decoration: none;
+    font-size: 20px;
+}
+.contener>nav>div>ol>li>a>select{
+    border: none;
+    font-size: 20px;
+    background-color: inherit;
+    color: white;
+}
+/* .contener>nav>div>ol>li>a>select>option{
+    color: white;
+    font-weight: bold;
+    font-size: 20px;
+    border: none;
+    background-color: black;
+  
+   
+}  */
+.Ice-creamImage{
+    height:100vh;
+    width:100%;
+    background-image: url("./images/Thancos-Web-bg.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+
+}
+
+
+.Ice-creamImage>.maincontener{
+    margin-top: 50px;
+    height: 80%;
+    width: 90%;
+    /* background-color: aqua; */
+    display: flex;
+}
+.Ice-creamImage>.maincontener>.Quality{
+    margin-left: 25px;
+    height: 100%;
+    width: 25%;
+    /* background-color: crimson; */
+    display: flex;
+    
+    flex-direction: column;
+    
+}
+h3>img{
+    height: 50px;
+    width: 50px;
+}
+.Ice-creamImage>.maincontener>.Quality>.heading{
+    margin-top: 10px;
+    font-size: 20px;
+    font-family: 'Satisfy', cursive;
+    color: brown;
+}
+
+.Ice-creamImage>.maincontener>.Quality>.paragraph{
+    margin-top: 40px;
+    font-size: 16px;
+    font-family: 'Satisfy', cursive;
+    color: white;
+}
+
+
+.Ice-creamImage>.maincontener>.impty{
+    height: 100%;
+    width: 40%;
+    /* background-color:aliceblue; */
+}
+
+
+.Ice-creamImage>.maincontener>.Awards{
+    margin-right: 20px;
+    height: 100%;
+    width: 25%;
+    /* background-color: blue; */
+    display: flex;
+    
+    flex-direction: column;
+}
+
+h3>img{
+    height: 50px;
+    width: 50px;
+}
+.Ice-creamImage>.maincontener>.Awards>.heading{
+    margin-top: 10px;
+    font-size: 20px;
+    font-family: 'Satisfy', cursive;
+    color: brown;
+}
+
+.Ice-creamImage>.maincontener>.Awards>.paragraph{
+    margin-top: 40px;
+    font-size: 16px;
+    font-family: 'Satisfy', cursive;
+    color: white;
+}
+.Ice-creamImage>.maincontener>.Awards>.Award22{
+    margin-top: 30px;
+}
+
+section{
+    height: 25vh;
+    width: 100%;
+    background-color: white;
+}
+
+.content{
+    height: 110vh;
+    width: 100%;
+    background-image: url("./images/Thancos-Web-Flav-bg.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+
+}
+
+
+.content>.maincontener{
+    margin-top: 50px;
+    height: 86%;
+    width: 90%;
+    /* background-color: blue; */
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+}
+
+.content>.maincontener>div{
+    height: 100%;
+    width: 35%;
+    /* border: 2px solid red; */
+}
+.content>.maincontener>div>.Flavours{
+    height: 100%;
+    width: 100%;
+
+}
+
+
+.content>.maincontener>div>.Flavours>img{
+    height: 100%;
+    width: 85%;
+    margin-top: 20px;
+}
+
+
+.content>.maincontener>div>.Flavours>h3{
+    color: white;
+    font-family: cursive;
+    position: absolute;
+    bottom: 500px;
+    left: 170px;
+   
+ }
+
+
+ .content>.maincontener>div>.Flavours>p{
+    
+    height: 330px;
+    width: 300px;
+    /* background-color: orange; */
+    position: absolute;
+    bottom: 150px;
+    left: 60px;
+    color: white;
+    font-family: cursive;
+    font-size: 20px;
+ }
+
+ .content>.maincontener>div>.Stores{
+    height: 100%;
+    width: 100%;
+    position: relative;
+
+}
+ .content>.maincontener>div>.Stores>img{
+    height: 100%;
+    width: 85%;
+    margin-top: 20px;
+    position: relative;
+}
+
+.content>.maincontener>div>.Stores>h3{
+    color: white;
+    font-family: cursive;
+    position: absolute;
+    bottom: 500px;
+    left: 170px;
+ }
+
+ .content>.maincontener>div>.Stores>p{
+    
+    height: 330px;
+    width: 300px;
+    /* background-color: orange; */
+    position: absolute;
+    bottom: 150px;
+    left: 60px;
+    color: white;
+    font-family: cursive;
+    font-size: 20px;
+ }
+
+
+ .content>.maincontener>div>.Franchisee{
+    height: 100%;
+    width: 100%;
+    position: relative;
+
+}
+ .content>.maincontener>div>.Franchisee>img{
+    height: 100%;
+    width: 85%;
+    margin-top: 20px;
+    position: relative;
+}
+
+.content>.maincontener>div>.Franchisee>h3{
+    color: white;
+    font-family: cursive;
+    position: absolute;
+    bottom: 500px;
+    left: 170px;
+ }
+
+ .content>.maincontener>div>.Franchisee>p{
+    
+    height: 330px;
+    width: 300px;
+    /* background-color: orange; */
+    position: absolute;
+    bottom: 150px;
+    left: 60px;
+    color: white;
+    font-family: cursive;
+    font-size: 20px;
+ }
+
+
+
+
+.formclass{
+    height: 75vh;
+    width: 100%;
+    background-image: url("./images/Thancos-Web-1.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
+
+.formclass>form{
+    margin-top: 30px;
+    height:90%;
+    width: 90%;
+    /* border: solid; */
+    text-align: left;
+}
+.formclass>form>h1{
+    /* font-weight: 90px; */
+    font-style: italic;
+    color: white;
+    font-family: cursive;
+   
+}
+.formclass>form>input{
+    height: 30px;
+    width: 100%;
+    border: 1px solid white;
+    margin-top: 30px;
+    /* background-color: rgba(0, 0, 0, 0.212); */
+    background: inherit;
+    
+    
+}
+.formclass>form>input::placeholder{
+    color: white;
+    padding-left: 30px;
+    font-size: 16px;
+}
+.formclass>form>textarea{
+    height: 150px;
+    width: 100%;
+    border: 1px solid white;
+    margin-top: 30px;
+    /* background-color: rgba(0, 0, 0, 0.212); */
+    background: inherit
+}
+.formclass>form>textarea::placeholder{
+    color: white;
+    padding-left: 30px;
+    font-size: 16px;
+}
+.formclass>form>.btn{
+    height: 40%;
+    width: 100%;
+    display: flex;
+    justify-content: right;
+    margin-top: 30px;
+  
+}
+.formclass>form>.btn>button{
+    height: 40px;
+    width: 80px;
+    border: 3px solid rgb(185, 92, 30);
+    color:rgb(185, 92, 30) ;
+    background: inherit;
+    
+}
+.formclass>form>.btn>button:hover{
+    color: brown;
+}
+
+footer{
+    height:60vh;
+    width: 100%;
+    background-color: black;
+    /* display: flex;
+    justify-content: center; */
+}
+
+footer>.footer-content{
+    height:82%;
+    width: 100%;
+    background-color: rgb(37, 33, 33);
+   
+}
+footer>.footer-content>.divcontainerFooter{
+    height:82%;
+    width: 80%;
+    display: flex;
+    margin-left: 130px;
+   
+}
+footer>.footer-content>.divcontainerFooter>div{
+    margin-top: 30px;
+    height: 80%;
+    width: 33%;
+    /* border: solid red; */
+}
+footer>.footer-content>.divcontainerFooter>.contact>h3{
+    margin-top: 20px;
+  font-style: italic;
+  color: rgb(67, 148, 67);
+  text-align: left;
+}
+footer>.footer-content>.divcontainerFooter>.contact>p{
+    margin-top: 40px;
+    margin-right: 40px;
+    /* font-style: italic; */
+    font-size: 20px;
+    color: white;
+    text-align: left;
+    /* font-style: Satisfy', cursive; */
+    font-family: cursive;
+  }
+
+  footer>.footer-content>.divcontainerFooter>.email>h3{
+    margin-top: 20px;
+  font-style: italic;
+  font-weight: bold;
+  color: white;
+  text-align: left;
+  }
+
+
+  footer>.footer-content>.divcontainerFooter>.email>p{
+    margin-top: 40px;
+    margin-right: 40px;
+    font-style: italic;
+    font-size: 20px;
+    color: white;
+    text-align: left;
+    font-family: cursive;
+  }
+
+  footer>.footer-content>.divcontainerFooter>.image>img{
+    margin: 50px;
+  }
+
+
+  footer>.last-footer{
+    height: 18%;
+    width: 100%;
+    /* background-color: blue; */
+    display: flex;
+    
+  } 
+  footer>.last-footer>.Powered {
+    height: 100%;
+    width: 70%;
+    /* background-color: aqua; */
+    
+  }
+  footer>.last-footer>.Powered >h3{
+    margin-left: 60px;
+    margin-top: 20px;
+    font-weight: bold;
+    font-size: 30px;
+    color: gray
+  }
+  footer>.last-footer>.logo {
+    height: 100%;
+    width: 15%;
+    /* background-color: rgb(190, 59, 207); */
+    margin-right: 20px;
+  }
+  footer>.last-footer>.logo>ol{
+    list-style-type: none;
+    display: flex;
+    text-align: center;
+   
+    justify-content: space-evenly;
+    
+  }
+ol>li>a>i{
+    margin-top: 20px;
+    height: 30px;
+    width: 30px;
+    color: #edb059;
+  }
+  /* footer>.last-footer>.logo>ol>li>a>img:hover{
+    color: gold;
+  } */
+
